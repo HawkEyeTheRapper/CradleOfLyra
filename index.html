@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cradle of Lyra - Coming Soon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('background_mobile.jpg') no-repeat center center fixed;
+      background-size: cover;
+      text-align: center;
+      overflow: hidden;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .content {
+      position: relative;
+      z-index: 2;
+      padding: 1rem;
+      max-width: 90%;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      animation: glow 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff8c00, 0 0 30px #ff8c00, 0 0 40px #ff8c00;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffa500, 0 0 40px #ffa500;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      line-height: 1.8;
+    }
+    a {
+      color: #ff8c00;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+    a:hover {
+      color: #ffa500;
+      text-shadow: 0 0 10px #ffa500;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Cradle of Lyra</h1>
+    <p>Welcome to the Cradle of Lyra, a sanctuary for cosmic exploration and profound healing.<br>
+       Dive into the hidden truths of our Collective Galactic History, as we work together to uncover these suppressed memories they made you forget, and reconnect to your Original Divine Blueprint.<br>
+       Our mission is to skillfully guide you through this weaving maze of time and support your evolution via transformative therapies that we've designed specifically to address the issue of Complex PTSD and Severe Trauma. Our hope is to become a catalyst for your Inner Restoration.<br>
+       <a href="learn_more.html">Learn More Here</a></p>
+  </div>
+</body>
+</html>
